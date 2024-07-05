@@ -1,0 +1,57 @@
+.App {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.buttonContainer {
+    padding: 0% 20% 0% 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-left: 10px;
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;  
+}
+
+.btn:hover {
+    opacity: 0.75;
+}
+
+.btn.clockIn {
+    background-color: #3366cc;
+}
+
+.btn.clockOut {
+    background-color: #cc3333;
+}
+
+.custom-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .custom-td, .custom-th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .custom-tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .not-found {
+    display: flex;
+    justify-content: center;
+  }
+
